@@ -53,6 +53,9 @@ jobs:
         configuration: [Debug, Release]
 
     runs-on: windows-latest
+    
+    permissions:
+      contents: read
 
     steps:
     - name: Checkout
